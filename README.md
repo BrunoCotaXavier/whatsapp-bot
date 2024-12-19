@@ -5,6 +5,8 @@ obs: template.dev.yml deve ser ajustado conforme suas variaveis de ambiente seja
 
 # iniciando projeto localhost.
 
+- inicie o docker
+
 - npp start
 
 
