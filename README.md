@@ -5,6 +5,8 @@ obs: template.dev.yml deve ser ajustado conforme suas variaveis de ambiente seja
 
 # iniciando projeto localhost.
 
+obs: webhoock com facebook nao funciona em localhost
+
 - inicie o docker
 
 - npm start
@@ -12,8 +14,8 @@ obs: template.dev.yml deve ser ajustado conforme suas variaveis de ambiente seja
 
 # iniciando projeto lambda.
 
-- zipe o projeto.
+obs: ainda não tem pipe.
+
+- zipe os arquivos do projeto.
 
 - despacha o zip em sua lambda.
-
-obs: ainda não tem pipe.
