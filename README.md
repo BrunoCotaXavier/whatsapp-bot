@@ -7,7 +7,7 @@ obs: template.dev.yml deve ser ajustado conforme suas variaveis de ambiente seja
 
 - inicie o docker
 
-- npp start
+- npm start
 
 
 # iniciando projeto lambda.
