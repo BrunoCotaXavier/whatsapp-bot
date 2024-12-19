@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Resources:
+  WebhookFunction:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs20.x
+      CodeUri: .
+      MemorySize: 128
+      Timeout: 30
+      Environment:
+        Variables:
+          VERIFY_TOKEN: 
+          FACEBOOK_TOKEN: 
+          NUMBER_ID: 
+      Events:
+        WebhookApi:
+          Type: Api
+          Properties:
+            Path: /whatsApp-bot-test
+            Method: any
